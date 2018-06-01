@@ -270,6 +270,7 @@
       "expect_disconnect": true,
       "scripts": [
         "scripts/update.sh",
+        "scripts/ubuntu1404salt.sh",
         "../_common/sshd.sh",
         "scripts/networking.sh",
         "scripts/sudoers.sh",
