@@ -169,6 +169,7 @@
       "scripts": [
         "scripts/update.sh",
         "scripts/cent6salt.sh",
+        "scripts/cent6pip.sh",
         "../_common/sshd.sh",
         "scripts/networking.sh",
         "../_common/vagrant.sh",

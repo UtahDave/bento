@@ -13,3 +13,8 @@ apt-get -y update;
 apt-get -y install salt-minion
 apt-get -y install python3.6
 
+
+curl https://bootstrap.pypa.io/ez_setup.py -o - | python3.6 && python3.6 -m easy_install pip
+# Install needed Python 3.6 modules
+pip3.6 install msgpack
+pip3.6 install pyyaml
